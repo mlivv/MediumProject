@@ -43,8 +43,6 @@ body {
     height: 2.8em;
     width: 7.8em;
     font-size: 0.9em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
   }
   
   .hrMain {
@@ -85,7 +83,7 @@ body {
     width: 20em;
   }
   
-  .titolo button {
+  #startReadingButton {
     background-color: #191919;
     color: white;
     font-size: 1.2em;
@@ -95,6 +93,13 @@ body {
     padding: 10px;
     height: 40px;
     width: 200px;
+  }
+
+  #startReadingButton:hover,
+  #getStartedButton:hover{
+    background-color: black;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
   }
   
   /* ---------FINE MAIN ----------*/
@@ -135,7 +140,6 @@ body {
   /* singolo articolo */
   .inPrimoPiano {
     display: flex;
-    /* width: 10vh; */
   }
   
   .numeroArticle {
@@ -147,7 +151,6 @@ body {
   
   .testoArticle{
     width: 35vh;
-    /* background-color: #ffc017; */
   }
   
   .nomeAutore {
@@ -197,11 +200,10 @@ body {
     top: 13%;
   }
   
-  /* -------------- DISCOVER MORE OF WHAT MATTERS TO YOU ---------------- */
+  /* ---- DISCOVER MORE OF WHAT MATTERS TO YOU ---- */
   
   .discoverMore {
     width: 43vh;
-    /* background-color: aliceblue; */
   }
   
   .discoverMoreTitle {
