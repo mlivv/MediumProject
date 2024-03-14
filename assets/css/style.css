@@ -1,0 +1,320 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* ---------INIZIO HEADER ----------*/
+  
+  header {
+    background-color: #ffc017;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .maxWidthObjects {
+    max-width: 63%;
+  }
+  
+  nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  nav div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rightSideNav p {
+    margin-right: 40px;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+  
+  #getStartedButton{
+    background-color: #191919;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px;
+    height: 2.8em;
+    width: 7.8em;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hrMain {
+    margin: 0;
+    background-color: #191919;
+    border: none;
+    height: 1px;
+  }
+  
+  /* --------- FINE HEADER ----------*/
+  /* ---------INIZIO MAIN ----------*/
+  
+  .main {
+    display: flex;
+    background-color: #ffc017;
+    align-items: center;
+    justify-content: space-between;
+    height: 48vh;
+  }
+  
+  .titolo {
+    margin-left: 19%;
+  }
+  
+  .boxLettere {
+    width: 55vh;
+  }
+  
+  .titolo h1 {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-size: 7em;
+    padding-bottom: 2.6vh;
+  }
+  
+  .titolo h2 {
+    font-size: 1.5em;
+    width: 20em;
+  }
+  
+  .titolo button {
+    background-color: #191919;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 5vh;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+  }
+  
+  /* ---------FINE MAIN ----------*/
+  /* ---------INIZIO TRENDING BOX ----------*/
+  
+  .trendingBox {
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+  }
+  
+  /* box - "trending on medium" */
+  .trendingTitle {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7vh;
+  }
+  
+  /* testo trending on medium - per distanziare*/
+  .trendingOnMedium {
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  
+  .trendingBox article {
+    width: 40vh;
+    margin-top: 1vh;
+    margin-bottom: 1.3vh;
+  }
+  
+  .articleSection{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* singolo articolo */
+  .inPrimoPiano {
+    display: flex;
+    /* width: 10vh; */
+  }
+  
+  .numeroArticle {
+    padding-right: 0.6em;
+    font-size: 2em;
+    color: #f2f2f2;
+    font-weight: 700;
+  }
+  
+  .testoArticle{
+    width: 35vh;
+    /* background-color: #ffc017; */
+  }
+  
+  .nomeAutore {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .nomeAutore img {
+    border-radius: 30px;
+  }
+  
+  .nomeAutore p {
+    margin-left: 1vh;
+    font-size: small;
+  }
+  
+  .titoloArticolo {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .dataDiPubblicazione {
+    margin-top: 1.3vh;
+    color: grey;
+    font-size: 0.8em;
+  }
+  
+  .hrSecondSection{
+    color: #f6f6f6;
+    opacity: 0.2;
+  }
+  
+  /* ----------- SEZIONE SECONDARIA ----------*/
+  
+  .boxSezioneSecondaria {
+    padding-top: 7vh;
+    display: flex;
+    margin: auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .boxSezioneSecondaria aside{
+    height: 35vh;
+    position: sticky;
+    top: 13%;
+  }
+  
+  /* -------------- DISCOVER MORE OF WHAT MATTERS TO YOU ---------------- */
+  
+  .discoverMore {
+    width: 43vh;
+    /* background-color: aliceblue; */
+  }
+  
+  .discoverMoreTitle {
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  
+  .discoverOptions {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .discoverLink {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  
+  .seeMoreTopicsLink {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .seeMoreTopicsLink:hover {
+    color: black;
+  }
+  
+  .boxLinks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  
+  .otherLink {
+    text-decoration: none;
+    color: grey;
+    font-size: small;
+    padding: 5px;
+  }
+  /* ------------------ ARTICOLI --------------------- */
+  .articoliSecondari {
+    width: 65%;
+    padding-right: 10vh;
+    margin-bottom: 10vh;
+  }
+  
+  .singoloArticoloSecondario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-bottom: 6vh;
+  }
+  
+  .testoArticleSecondario {
+    width: 67%;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* autore */
+  .autoreArticoloSecondario {
+    display: flex;
+    margin-bottom: 0.8vh;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  .autoreArticoloSecondario p {
+    margin-left: 15px;
+    font-size: small;
+  }
+  
+  .autoreArticoloSecondario img {
+    border-radius: 20px;
+  }
+  
+  /* testo */
+  .titoloArticoloSecondario {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 0.8vh;
+  }
+  
+  .introduzioneTesto {
+    color: gray;
+    margin-bottom: 1vh;
+  }
+  
+  .dataDiPubblicazioneTS{
+    display: flex;
+    align-items: center;
+  }
+  
+  .dataDiPubblicazioneTS p {
+    font-size: small;
+    margin-top: 5px;
+    margin-right: 3px;
+    color: rgb(89, 89, 89);
+  }
+  
+  .articleTag{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 1.5em;
+    padding-top: 6px;
+    cursor: pointer;
+  }
